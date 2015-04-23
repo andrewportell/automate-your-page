@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Intro to Programming by Andrew</title>
+      <link rel="stylesheet" href="stage2-style.css">
+</head>
+<body>
+  <h1>Intro to Programming</h1>
+  <br>
+  <br>
+  
+  <!--         Begin Table of <Contents             -->
+  <div class="toc-container"><!-- toc-container open --> 
+    <div class="toc-flex"><!-- stage 0 open -->
+      <a href="#stage-0">
+        <h2>Stage 0:<br>The Basics of Web and HTML</h2></a>
+          <ul>
+            <li><a href="#stage-0.1">Intro to the Web</a></li>
+            <li><a href="#stage-0.2">HTML Markup and Tags</a></li>
+            <li><a href="#stage-0.3">Elements</a></li>
+            <li><a href="#stage-0.4">Learning to Code</a></li>
+            <li><a href="#stage-0.5">How We Will Use the Stages</a></li> 
+          </ul>
+    </div><!-- stage 0 close -->  
+      
+    <div class="toc-flex"><!-- stage 1 open -->
+      <a href="#stage-1">
+        <h2>Stage 1:<br>Make Your Webpage<br></h2></a>
+          <ul>
+            <li><a href="#stage-1.1">Structured HTML Docs</a></li>
+            <li><a href="#stage-1.2">HTML</a></li>
+            <li><a href="#stage-1.3">CSS</a></li>
+            <li><a href="#stage-1.4">Javascript</a></li>
+          </ul>
+    </div><!-- stage 1 close -->  
+        
+    <div class="toc-flex"><!-- stage 2 open -->
+      <a href="#stage-2.1">
+        <h2>Stage 2:<br>Automate Your Webpage</h2></a>
+          <ul>
+            <li><a href="#stage-2.1">Intro to "Serious" Programming</a></li>
+            <li><a href="#stage-2.2">Telling Computers What to Do</a></li>
+            <li><a href="#stage-2.3">Practicing with Code</a></li>
+            <li><a href="#stage-2.4">Systems Thinking</a></li>  
+          </ul>
+    </div><!-- stage 2 close -->  
+  
+    <div class="toc-flex"><!-- stage 3 open -->
+      <a href="#stage-3">
+        <h2>Stage 3:<br>Add Videos to Your Page</h2></a>
+          <ul>
+            <li>Coming Soon!!!</li>
+            <li>Coming Soon!!!</li>
+            <li>Coming Soon!!!</li>
+          </ul>
+    </div><!-- stage 3 close -->
+    
+    <div class="toc-flex"><!-- stage 4 open -->
+      <a href="#stage-4">
+        <h2>Stage 4:<br>Let Anyone Modify Your Page</h2></a>
+          <ul>
+            <li>Coming Soon!!!</li>
+            <li>Coming Soon!!!</li>
+            <li>Coming Soon!!!</li>
+          </ul>
+    </div><!-- stage 4 close -->
+      
+    <div class="toc-flex"><!-- stage 5 open -->
+      <a href="#stage-5">
+        <h2>Stage 5:<br>Chose Your Next Steps<br></h2></a>
+          <ul>
+            <li>Coming Soon!!!</li>
+            <li>Coming Soon!!!</li>
+            <li>Coming Soon!!!</li>
+        </ul>
+    </div><!-- stage 5 close -->
+    </div><!--toc-container close-->
+      
+<!--               End Table of Contents           -->        
+
+               
+      <div class="stage"><!-- stage 0 container open-->  
+         
+        <h3 id="stage-0">Stage 0: The Basics of Web and HTML - Getting Started with HTML</h3>
+        
+      <div class="concept">  
+        <div class="concept-title" id="stage-0.1">
+       Intro to the Web 
+        </div>
+          <div class="concept-description">
+          <ul>         
+            <li>WWW - The <em>World Wide Web</em> is the network of networks.  It provides the paths to connect to content anywhere in the world.</li>
+            <li>HTML - <em>Hypertext Markup Language</em> is the language used to define the structure and element information of a webpage. The text defines what you see and the markup defines how it looks in the browser.</li>
+            <li>Images, videos and music are referenced and linked to in the HTML document.</li>
+            <li>Browser - website viewer</li>
+            <li>HTTP - <em>Hypertext Transfer Protocol</em> is the application protocol of the web.  It decodes HTML into a readable form for humans.</li>
+            <li>Internet - <em>The Internet</em> is the largest computer network in the world and is comprised of all public computers and servers.</li>
+            <li>Servers - <em>Servers</em> are specialized computers that host files used for websites and other accessable contents for use on the internet.</li>
+          </ul>
+        </div>
+    </div>
+    
+    <div class="concept">
+        <div class="concept-title" id="stage-0.2">
+        HTML Markup and Tags
+        </div>
+          <div class="concept-description">    
+          <ul>
+            <li>Opening &lt;tag&gt;</li>
+            <li>Contents - text between the tags</li>
+            <li>Closing Tag - &lt;/tag&gt;</li>
+            <li>Element - opening, contents and closing together</li>
+            <li>b - <b>bold</b></li>
+            <li>em - <em>emphisis italics</em></li>
+            <li>a - anchor (a href="url">contents/a)</li>
+            <li>(img src="url" alt="text")</li>
+            <li>alternate text - displayes text if there is a broken request</li>
+            <li>br - line break</li>
+            <li>p - paragraph</li>
+          </ul>  
+      </div>        
+    </div>
+    
+    <div class="concept">
+        <div class="concept-title" id="stage-0.3">
+        Elements
+        </div>
+          <div class="concept-description">
+          <p>Block elements <em>boxify</em> the content contained inside the block element tag. Below are some examples of both <em>inline</em> and <em>block</em> tags.</p>
+          <ul>
+            <li>inline - a, br, img, span, strong</li>
+            <li>block - div, p - paragraph, form - height and width can be modified</li>
+          </ul>
+      </div>      
+    </div>
+    <div class="concept">
+        <div class="concept-title" id="stage-0.4">
+        How Learning Anything Works
+        </div>
+          <div class="concept-description">
+          <p>
+            When learning anything new you start out as a <em>novice</em> and apprise to one day become an <em>expert</em>. &nbsp; In this nanodegree the instructor advises we will use a staged approach as we advance in the course and our knowlege on the subject of programming.</p>  
+          <ol>
+            <li><b>Stage 0</b> - Ignorence - novice with virtually no knowledge of the subject</li>
+            <li><b>Stage 1</b> - Awareness - very limited functional knowledge, will recognise basic terms - <em>minutes to aquire</em></li>
+            <li><b>Stage 2</b> - Ability - working knowledge of the subject, can work independently utilizing resources - <em>days to aquire</em></li>
+            <li><b>Stage 3</b> - Fluency - expert in field - <em>takes years to aquire</em></li>
+          </ol>
+      </div>
+    </div>
+      
+    <div class="concept">
+        <div class="concept-title" id="stage-0.5">
+        How We Will Use the Stages
+        </div>    
+          <div class="concept-description">
+          <p>Fluency is not the goal of this course, we will shoot for awareness and ability in several areas.
+          </p>
+          <ul>
+            <li><em>Awareness</em> of SQL Databases, Get vs Post Requests and Webpage Structure.</li>
+            <li><em>Ability</em> to use Functions and Abstract Thinking</li>
+          </ul>  
+          <p>Throughout the course when feeling frustrated we will ask for help. &nbsp; Some good resource for help are <a href="https://www.google.com">Google</a> and the Udacity discussion forum; or sometimes taking a break is all you will need.
+          </p>
+      </div>      
+    </div>
+    </div><!--stage 0 container-->        
+       
+      
+    <div class="stage"><!--stage container open-->
+        <h3 id="stage-1">Stage 1: Make Your Webpage - Creating a Structured Document with HTML</h3>
+    <div class="concept"> 
+        <div class="concept-title" id="stage-1.1">
+        Structured HTML Documents
+        </div>
+        <div class="concept-description">
+          <p>The structure of any HTML document is very important.  It is the foundation for the website and will be the basis from which all others aspects of the site are developed. A good baseline stucture will avoid repetition in you HTML, CSS and Javascript code, which will make changes or expansion to the website much easier and the website will run efficiently.</p>  
+        </div>
+      </div>
+      <div class="concept"> 
+        <div class="concept-title" id="stage-1.2">
+        Three Languages Web Developers Must Learn!!!
+        </div>
+        <div class="concept-description">
+          <ol><!--ordered list ol open-->
+            <li><b>HTML</b> - <a href="http://www.w3schools.com/html/default.asp">HyperText Markup Language:</a>
+              The language of the internet.  Defines the basic structure of web pages.
+          <ul>
+            <li>Browsers Uses syntax rules to interpret HTML</li>
+            <li>Language of the web</li>
+            <li>Contains content text</li>
+            <li>Contains links to other web pages, images, videos or documents</li>
+          </ul>
+            </li><!--ordered list li 1 close--> 
+            <li><a id="stage-1.3"><b>CSS</b></a> - <a href="http://www.w3schools.com/css/default.asp">Cascading Style Sheets:</a> 
+            Makes declarations regarding style and layout for TAGs used to display web page content.  Using Class tags alow easy chages to fonts, text, backgrounds and other styling aspects of your website. 
+          <ul>
+            <li>Color
+            </li>
+            <li>Borders
+            </li>
+            <li>Font
+            </li>
+            <li>Background
+            </li>
+          </ul>
+            </li><!--ordered list li 2 close-->
+            <li><a id="stage-1.4"><b>JS</b></a> - <a href="http://www.w3schools.com/js/default.asp">JavaScript:</a> 
+              Implements interactive components in a web page.   
+          <ul>
+            <li>Can change HTML Images</li>
+            <li>Enables users to make changes to the website</li>
+            <li>Used to vaildate information input to the website</li>
+          </ul>
+            </li><!--ordered list li 3 close-->
+          </ol><!--ordered list ol close-->
+    </div>
+    </div>       
+    </div><!--stage container close--> 
+            
+    <div class="stage"><!--stage container open-->
+
+        <h3 id="stage-2.1">Stage 2.1: Introduction to "Serious" Programming</h3>
+      
+        <div class="concept"> 
+        <div class="concept-title">Computer Programing</div>
+          <div class="concept-description">
+          <p>Machines are usually designed to perform a specific task or a few similar tasks.  Computers on the other hand can be programmed to do whatever your mind can think of.  We as programmers can break the task down into a specific sequence of instructions for the computer to process.  </p>
+          </div>
+      </div>
+    <div class="concept">
+        <div class="concept-title">Programming Languages</div>
+      <div class="concept-description">
+          <p>There are many different programming languages to choose from.  They all have their pros and cons depending on what you are trying to accomplish.  Python is an example of a programming language.   </p>
+      </div>
+      </div>
+    <div class="concept">
+        <div class="concept-title">Programming Grammar</div>
+              <div class="concept-description">
+          <p>Each programming language has a defined grammar model applied in the language syntax.  An Interpreter converts the Python code from the syntax humans can understand into a code that computers understand (probably binary) to execute the process.   Programming grammar is very precise and details such as spaces and capital letters where they should not be can cause a syntax error and cause the program to fail.   Your Python code must follow the syntax perfectly.   The Python Interpreter will not interpret the code like a human would and be able to infer anything outside of its grammatical structure.  Computers are not smart enough to make inferences and piece together improper syntax. </p>
+              </div>
+      </div>
+    <div class="concept">
+        <div class="concept-title">Python Expression</div>
+            <div class="concept-description">
+          <p>A Python Expression is a Python statement that uses perfectly applied syntax using the defined grammar to get the desired result.  </p>
+            </div>
+            </div>
+     
+    </div><!--stage container close-->
+              
+              
+    <div class="stage"><!-- stage container open-->
+      
+        <h3 id="stage-2.2">Stage 2.2: Telling Computers What to Do- Variables and Strings</h3>
+      
+    <div class="concept">
+        <div class="concept-title">Variables</div>
+      <div class="concept-description">
+          <p>A variable in Python is an assignment of a value (integer or text) to a name that is easier for programmers to understand and use in programs.
+          <br>
+          <br>Examples:
+          <br>#define the variables
+          <br>my_var1= 3
+          <br>my_var2= 4
+          <br>print my_var1 + my_var2
+          <br>7
+          <br>#
+          <br>#in python it is good practice to define one number
+          <br>#in your equation with a decimal point since python
+          <br>#will default to whole numbers
+          <br>print my_var1 / my_var2 
+          <br>0
+          <br>#
+          <br>#zero is not correct so we will need to add a
+          <br>#decimal point to one of the whole numbers to
+          <br>#get a higher level of accuracy
+          <br>my_var2= 4.0
+          <br>print my_var1 / my_var2
+          <br>0.75
+          </p>
+      </div>
+      </div>
+      <div class="concept">
+        <div class="concept-title">
+          Strings
+        </div>
+      <div class="concept-description">
+          <p>A string in Python is a sequence or characters surrounded by quotes.
+          <br>'I am a string'
+          <br>"Or double quotes"
+          <br>
+          <br>Examples:
+          <br>#define the variable
+          <br>my_var1= "a test"
+          <br>my_var2= "only a test"
+          <br>print "This is  " + my_var1 + "."
+          <br>This is a test.
+          <br>#
+          <br>print "This is " + my_var2 + "!" * 3
+          <br>This is only a test!!!
+          </p>
+      </div>
+      </div>
+      <div class="concept">
+        <div class="concept-title">
+          Finding Strings in Strings
+          </div>
+      <div class="concept-description">
+          <p>Find is a method in Python and is a built in procedure.
+          <br>&lt; string &gt;.find(&lt; string &gt;)
+          <br>Python will return the location where the first letter of the string is in the search area. 
+          <br>
+          <br>Examples:
+          <br>my_string = "Python will return the location where the first letter of the string is in the search area."
+          <br>print my_string.find("first")
+          <br>42
+          <br>#
+          <br>print my_string.find("letter")
+          <br>48
+          <br>#
+          <br>#to print location 42 and all text after
+          <br>print my_string[42:]
+          <br>first letter of the string is in the search area.
+          <br>#
+          <br>#to print a range
+          <br>print my_string[42:47]
+          <br>first
+          <br>#
+          <br>#to print all text before location 42
+          <br>print my_string[:42] 
+          <br>Python will return the location where the
+          <br>#
+          <br>#next is an example of a common error when searching strings
+          <br>print my_string.find("second")
+          <br>-1
+          <br>Python will return a -1 when the target string is not found within the search string.
+          </p>   
+        </div>
+      </div>
+    </div><!--stage container close-->
+              
+              
+    <div class="stage"><!-- stage container open-->
+      
+        <h3 id="stage-2.3">Stage 2.3: Practicing with Code</h3>
+      
+<div class="concept">
+    <div class="concept-title">
+        Functions
+    </div>
+    <div class="concept-description">
+        <p>Functions are sometimes referred to as procedures. Functions are powerful because they allow text or integers to be input and an automatic output to be generated.   This is what we will use to generate our HTML when we automate out webpage.</p>
+    </div>
+</div>
+<div class="concept">
+    <div class="concept-title">
+        If and While
+    </div>
+    <div class="concept-description">
+        <p>If statements are used to control which code gets executed when conditions are met and While loops are used to perform repetitive tasks.</p>
+        <p>If example:
+        <br>def biggest(a,b,c):
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;if a>b:
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if a>c:
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return a
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else:
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return c
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;else:
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if b>c:
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return b
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else:
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return c
+        <br>print biggest(9,5,3)
+        <br>#>>>9
+        <br>  
+        <br>While loops:
+        <br>while  &lt; Test Expression &gt;:
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt; block &gt;
+        <br>i = 0
+        <br>while i != 10:
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;i = i + 1
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;print i
+        <p>This example will print 1-10 and then become false since 10 would be equal to 10 and != stands for not equal.</p>   
+        <p>Use Break to stop executing the existing loop and move on to the next code.</p>
+    </div>
+</div>
+<div class="concept">
+    <div class="concept-title">
+        Equality Comparisons
+    </div>
+    <div class="concept-description">
+        <p>Python has many operators available for making comparisons
+        &lt; less than, > greater than, &lt;= less than or equal to, etc</p>
+        &lt;number&gt; &lt;operator&gt; &lt;number&gt;
+        <br>Boolean value: value True or value False
+        <br>print 2 &lt; 3
+        <br>True 
+        <br>print 21 &lt; 3
+        <br>False
+        <br>print 7 * 3 &lt; 21
+        <br>False
+        <br>print 7 * 3 != 21     #   != stands for not equal to
+        <br>False
+        <br>print 7 * 3 == 21     #   == stands for equal to
+        <br>True
+    </div>
+</div>
+<div class="concept">
+    <div class="concept-title">
+        The OR Operator
+    </div>
+    <div class="concept-description">
+        <p>&lt;Expression&gt; or &lt;Expression&gt; In cases where the first expression evaluates to True, the value is True and the second expression is not evaluated. If the first expression evaluates to False, the value is the value of the second expression.</p>
+    </div>
+</div>
+<div class="concept">
+    <div class="concept-title">
+        Break
+    </div>
+    <div class="concept-description">
+        <p>Break is used to exit a loop if the while statement is true, but if the break is true it will move on out of the current while loop to the next code.</p>
+    </div>
+</div>
+<div class="concept">
+    <div class="concept-title">
+        Debugging
+    </div>
+    <div class="concept-description">
+        <p>When debugging code examine the Python Tracebacks to see what went wrong.  Pay attention to the bottom half of the error message that indicates the line the error occurred and error description.   See the listed URL for a complete description of the error if needed.</p>   
+Another strategy is to add print statements within the code to evaluate the progress  and identify bugs midstream in the code.
+    </div>
+</div>
+<div class="concept">
+    <div class="concept-title">
+        Median
+    </div>
+    <div class="concept-description">
+        <br># Define a procedure, median, that takes three
+        <br># numbers as its inputs, and returns the median
+        <br># of the three numbers.
+        <br># Make sure your procedure has a return statement.
+        <br>
+        <br>def bigger(a,b):
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;if a > b:
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return a
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;else:
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return b
+        <br>def biggest(a,b,c):
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;return bigger(a,bigger(b,c))
+        <br>def median(a,b,c):
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;big = biggest(a,b,c)
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;if big == a:
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return bigger(b,c)
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;if big == b:
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return bigger(a,c)
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;else:
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return bigger(a,b)
+        <br>
+        <br>print(median(1,2,3))
+        <br>#>>> 2
+        <br>print(median(9,3,6))
+        <br>#>>> 6
+        <br>print(median(7,8,7))
+        <br>#>>> 7
+    </div>
+</div>
+      </div><!--stage container close-->
+    
+<div class="stage"><!-- stage container open-->
+      
+        <h3 id="stage-2.4">Stage 2.4: Systems Thinking</h3>
+      
+    <div class="concept">
+    <div class="concept-title">
+        Writing Modular Code
+    </div>
+    <div class="concept-description">
+        <p>Understand the Problem:  Develop an understanding of what the requirements for the project are and what the inputs and outputs will be.   Our problem in this stage is writing a Python program that will automatically generate (output) HTML when text (my notes) are input to the program.</p>
+
+        <p>Make a Strategy:  Look at the existing HTML in the site focusing on how to structure the Python code to produce the content title and content description HTML. Then look at the text that will be the input. Structure the text with markers for the code to locate the Title and Description that will lead it to the content it will actually use in the website.   
+        Write Code in stages and keep refining it until the desired output is produced which will be usable HTML for use in our website.</p>
+    </div>
+</div>
+  </div><!--stage container close-->
+
+ 
+          <p>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+              <img style="border:0;width:88px;height:31px"
+                  src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                  alt="Valid CSS!" />
+              </a>
+          </p>
+</body>
+</html>
