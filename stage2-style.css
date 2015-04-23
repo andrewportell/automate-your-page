@@ -1,0 +1,90 @@
+/* This is a CSS comment */
+
+body {
+      padding: 80px 10px;
+      font-family: "Times New Roman", Georgia, Serif;
+      margin: 0 auto;
+      font-size: 1.3em;
+      background-image: url('http://romeldesign.com/wp-content/uploads/2014/03/css1.jpg');
+}
+h1 {
+  color: white;
+  background-color: rgb(51, 102, 153);
+  border-radius: 10px;
+  font-size: 45px;
+  text-align: center;
+  margin: 20px 50px auto;
+  max-width: 2000px;
+}
+/* table of contents container */
+.toc-container {   
+          padding:10px;
+          text-align: center; 
+          list-style:none; 
+          display: flex; 
+          justify-content: center; 
+          flex-wrap:wrap;
+          border-color: rgb(36, 71, 143); 
+          border-style:solid;
+          border-width: thick; 
+          background-color: lightgrey;
+} 
+h2 {
+  color: white;
+  background-color: rgb(51, 102, 153);
+  border-radius: 0px;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  max-width: 400px;
+}
+/* table of contents flex box container */
+.toc-flex {
+          width:28%; margin:10px; 
+          padding:0px;  
+          text-align: left;
+          border-style:solid; 
+          border-width: medium; 
+          border-radius: 20px ; 
+          border-color: rgb(36, 71, 143); 
+          background-color: grey;
+}
+.stage {
+  background-color: lightgray;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  margin: 10px auto;
+}
+.concept {
+  background-color: grey;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px auto;
+}
+h3 {
+  background-color: rgb(51, 102, 153);
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 50px auto;
+  max-width: 2000px;
+}
+.concept-title {
+  background-color: rgb(51, 102, 153);
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 50px auto;
+  max-width: 2000px;
+}
+.concept-description 
+{
+  background-color: gray;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px auto;
+}
+ul {
+  text-align: left;
+}
